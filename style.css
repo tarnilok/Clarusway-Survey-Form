@@ -1,0 +1,43 @@
+body {
+    font-family:comic-sns ;
+    font-size: 1rem;
+    align:center;
+    font-weight: 200;
+    line-height: 1.5;
+    color: var(--color-white);
+    position:center;
+  }
+h1 {
+    color:whiteblue;
+    margin-top: 0px;
+    margin-bottom: 0.5rem;
+    font-family: comic-sns;
+    font-size: 75px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+input, button, select, textarea {
+  margin: 1;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+button {
+    border: none;
+}
+
+.header {
+    padding: 0 0.625rem;
+    margin-bottom: 1.875rem;
+}
